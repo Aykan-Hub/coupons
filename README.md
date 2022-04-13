@@ -6,3 +6,10 @@ This data comes to us from the UCI Machine Learning repository and was collected
 
 # Deliverables
 assignment.5.1.Aykan.ipynb contains visualization and solution of whether customer is accepting a coupon or not. The Jupyter notebook uses a data file in data directory.
+
+# Results
+## Bar
+Apparently, frequent bar-goers play signifcant role in accepting bar coupons, there seems other factors affecting this decision by age group and whom they are accompanied by in the car which means they are younger people who are single and crusing with friend(s). Also, from the heatmap, 'expiration' has positive correlation may affect the decision and 'has_children' numeric feature has a negative correlation on bar goers but seem negligible affect on coupon acceptance. On the other hand, visiting other establishments frequently does not seem an influencer on bar-goers.
+
+## Coffee House
+Apparently, frequent coffee house-goers play signifcant role in accepting coffee house coupons, age is affecting and whom they are accompanied by in the car which means whomever accepting coupons are younger people and driving with friend(s) or partners. Also, from the heatmap, coupon 'expiration' has a positive correlation may affect the decision and 'has_children' numeric feature has a negative correlation on coffee house goers but seem negligible affect on coupon acceptance. However, time of the day is important on accepting or declining a coupon because coffee store goers are midday people as their peak is 10AM and 2PM. Interestingly temperature play another significant role here on younger people whether to accept a coupon. On the other hand, visiting other establishments frequently does not seem an influencer on coffee house-goers.
